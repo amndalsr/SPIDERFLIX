@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(14, 14, 14);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.nome{
+    color: #E50914;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 90px;
+    top: 3.6rem;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 3rem;
+    
+}
+
+header nav a{
+    color: white;
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 14px;
+    margin-right: 6px;
+    margin-left: 200px;
+    
+}
+
+header nav a:hover{
+    cursor: pointer;
+    color: rgb(189, 184, 184);
+    transition: all 0.2s ease;
+}
+
+.lu{
+    margin-left: 530px;
+    width: 3.3rem;
+    height: 3.3rem;
+    cursor: pointer;
+  
+    position: fixed;
+    right: 20rem;
+    top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.si{
+    margin-left: 20px;
+    width: 3.2rem;
+    height: 3.2rem;
+    cursor: pointer;
+
+    
+    position: fixed;
+    right: 14rem;
+    top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ico{
+    margin-left: 30px;
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+    border-radius: 4px;
+    
+
+    position: fixed;
+    right: 5rem;
+    top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+
+.capa-principal .nome-serie h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-left: 90px;
+    margin-top: 270px;
+    margin-bottom: 2rem;
+    
+}
+
+.capa-principal{
+    background: url(cap3.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    opacity: 9;
+   
+}
+
+.capa-principal .descricao{
+    flex-direction: column;
+    margin-left: 90px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    max-width: 900px;
+    margin-bottom: 2.6rem;
+}
+
+.capa-principal .botao{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.capa-principal .botao .b1{
+    margin-left: 0px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(255, 254, 254, 0.808);
+    padding: 20px;
+    color: black;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+.capa-principal .botao .b1:hover{
+    background-color: rgba(206, 203, 203, 0.849);
+}
+
+.capa-principal .botao .b2{
+    margin-left: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(146, 146, 146, 0.705);
+    padding: 20px;
+    color: white;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+.capa-principal .botao .b2:hover{
+    background-color: rgba(192, 192, 192, 0.247);
+}
+
+.capa-principal .botao .i{
+    margin-right: 8px;
+}
+
+.filmes .item{
+    height: 480px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    margin-left: 20px;
+    padding: 1rem;
+ 
+}
+

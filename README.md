@@ -1,6 +1,6 @@
 <h1 align="center">🕷️ SPIDERFLIX 🕷</h1>
 
-<h2 align="center">Atividade proposta por um Bootcamp da DIO</h2>
+<h2 align="center">Atividade proposta em um Bootcamp da DIO</h2>
 
 <h3 align="center">Para esse projeto foram utilizados: </h3>
 <div align="center">
